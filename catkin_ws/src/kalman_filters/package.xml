@@ -1,0 +1,20 @@
+<package format="2">
+    <name>kalman_filters</name>
+    <version>0.0.1</version>
+    <description>Package for different Kalman Filters using the BNO055 9-DOF IMU</description>
+
+    <maintainer email="annis.nusseibeh@gmail.com">Annis Nusseibeh</maintainer>
+    <author>Annis Nusseibeh</author>
+    <license>Commons Clause</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <buildtool_depend>cmake_modules</buildtool_depend>
+
+    <depend>roscpp</depend>
+    <depend>sensor_msgs</depend>
+    <depend>std_msgs</depend>
+    <depend>geometry_msgs</depend>
+    <depend>cmake_modules</depend>
+
+    <exec_depend>message_runtime</exec_depend>
+</package>
